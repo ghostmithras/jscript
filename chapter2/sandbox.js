@@ -122,3 +122,94 @@ let html = `<h2>${title}</h2> <p>by ${author}</p> <span>This blog has ${likes} l
 console.log(html);
 */
 
+/*
+let fighters = ['ken', 'ryu', 'chun-li'];
+console.log(fighters[1]);
+fighters[1] = 'dan';
+console.log(fighters[1]);
+
+let ages = [20, 25, 30, 35];
+console.log(ages[2]);
+
+let random = ['shaun', 'crystal', 30, 20];
+console.log(random);
+
+console.log(fighters.length);
+
+// array methods
+let result = fighters.join(',');
+console.log(result);
+result = fighters.indexOf('chun-li');
+console.log(result);
+result = fighters.concat('cammy', 'bison');
+console.log(result);
+result = fighters.push('ryu');
+console.log(fighters);
+result = fighters.pop();
+console.log(fighters);
+*/
+
+/*
+let age = null;
+console.log(age, age + 3, `The age is ${age}`);
+
+// booleans and comparisons
+console.log(true, false, 'true', 'false');
+
+// methods can return booleans
+let email = 'luigi@thenetninja.co.uk';
+let names = ['mario', 'luigi', 'toad'];
+
+let result = email.includes('!');
+console.log(result);
+
+result = names.includes('luigi');
+console.log(result);
+
+// comparison operators
+age = 25;
+
+console.log(age == 25);
+console.log(age == 30);
+console.log(age != 30);
+console.log(age != 25);
+console.log(age < 20);
+console.log(age > 20);
+console.log(age <= 20);
+console.log(age >= 20);
+
+let name = 'shaun';
+
+console.log(name == 'shaun');
+console.log(name == 'Shaun');
+console.log(name > 'crystal');
+console.log(name > 'Shaun');
+console.log(name > 'Crystal');
+
+// loose comparison
+
+age = 25;
+
+console.log(age == 25);
+console.log(age == '25');
+
+// strict comparison
+
+console.log(age === 25);
+console.log(age === '25');
+console.log(age !== 25);
+console.log(age !== '25');
+*/
+
+// type conversion
+let score = '100';
+console.log(typeof score);
+console.log(score + 1);
+
+score = Number(score);
+console.log(typeof score);
+console.log(score + 1);
+
+score = String(50);
+console.log(typeof score);
+console.log(score);
